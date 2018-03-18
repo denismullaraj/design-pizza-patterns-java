@@ -4,5 +4,7 @@ In software engineering, a software design pattern is a general, reusable soluti
 The repository is meant to show some example of implementations of the most common design patterns in Java.
 
 * What are the design patterns? [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+    - Creational patterns
+        - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern)
     - Structural patterns
-        - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)  
+        - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
