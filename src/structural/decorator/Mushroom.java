@@ -3,9 +3,9 @@ package structural.decorator;
 /**
  * Created by denis.mullaraj on 17.3.18.
  */
-public class Mushroom extends PizzaDecorator {
+class Mushroom extends PizzaDecorator {
 
-    public Mushroom(Pizza pizza) {
+    Mushroom(Pizza pizza) {
         super(pizza);
     }
 

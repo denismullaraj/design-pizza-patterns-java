@@ -3,9 +3,9 @@ package structural.decorator;
 /**
  * Created by denis.mullaraj on 17.3.18.
  */
-public class Pomodoro extends PizzaDecorator {
+class Pomodoro extends PizzaDecorator {
 
-    public Pomodoro(Pizza pizza) {
+    Pomodoro(Pizza pizza) {
         super(pizza);
     }
 
