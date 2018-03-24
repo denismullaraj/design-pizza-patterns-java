@@ -1,11 +1,13 @@
 package behavioural.observer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Implementation of the Observable
  * Created by denis.mullaraj on 24.3.18.
  */
-public class Pizza implements Observable{
+class Pizza implements Observable{
 
     /**
      * Pizza name
@@ -23,18 +25,34 @@ public class Pizza implements Observable{
      */
     private List<Observer> observerList;
 
+    Pizza(String pizzaName) {
+        this.pizzaName = pizzaName;
+        this.observerList = new ArrayList<>();
+    }
+
     @Override
     public void addObserver(Observer observer) {
-
+        observerList.add(observer);
     }
 
     @Override
     public void removeObserver(Observer observer) {
-
+        observerList.remove(observer);
     }
 
     @Override
     public void notifyAllObservers() {
+        for(Observer observer: observerList){
+            observer.update(status);
+        }
+    }
 
+    /**
+     * Set the pizza status based on availability and notify all observers
+     * @param available
+     */
+    void setStatus(boolean available){
+        status = pizzaName + (available ? " is available": " is not available");
+        notifyAllObservers();
     }
 }

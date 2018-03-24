@@ -4,7 +4,7 @@ package behavioural.observer;
  * The Observable (Subject) Interface
  * Created by denis.mullaraj on 24.3.18.
  */
-public interface Observable {
+interface Observable {
 
     /**
      * Add observer
