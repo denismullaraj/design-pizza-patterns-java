@@ -8,3 +8,5 @@ The repository is meant to show some example of implementations of the most comm
         - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern)
     - Structural patterns
         - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
+    - Behavioural patterns
+        - Observer [Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)
