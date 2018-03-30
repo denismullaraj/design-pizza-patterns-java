@@ -10,4 +10,5 @@ The repository is meant to show some example of implementations of the most comm
         - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
         - Proxy [Wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)
     - Behavioural patterns
+        - Chain of Responsability [Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
         - Observer [Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)
