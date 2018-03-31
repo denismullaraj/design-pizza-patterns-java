@@ -5,7 +5,7 @@ The repository is meant to show some example of implementations of the most comm
 
 * What are the design patterns? [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
     - Creational patterns
-        - Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern)
+        - (Simple) Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming))
     - Structural patterns
         - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
         - Proxy [Wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)

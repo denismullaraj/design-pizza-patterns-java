@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.simplefactory;
 
 /**
  * Created by denis.mullaraj on 18.3.18.
