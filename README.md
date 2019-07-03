@@ -4,12 +4,12 @@ In software engineering, a software design pattern is a general, reusable soluti
 The repository is meant to show some example of implementations of the most common design patterns in Java.
 
 * What are the design patterns? [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
-    - Creational patterns
+    - [Creational patterns](https://github.com/denismullaraj/design-pizza-patterns-java/tree/master/src/creational)
         - Builder [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
         - (Simple) Factory [Wikipedia](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming))
-    - Structural patterns
+    - [Structural patterns](https://github.com/denismullaraj/design-pizza-patterns-java/tree/master/src/structural)
         - Decorator [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
         - Proxy [Wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)
-    - Behavioural patterns
+    - [Behavioural patterns](https://github.com/denismullaraj/design-pizza-patterns-java/tree/master/src/behavioural)
         - Chain of Responsability [Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
         - Observer [Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)
